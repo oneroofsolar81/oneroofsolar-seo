@@ -479,7 +479,7 @@ export function Navbar() {
                       <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#8cc63f]/50 to-transparent" />
                       <div className="pointer-events-none absolute -top-24 left-1/2 -translate-x-1/2 w-[520px] h-[180px] bg-[#8cc63f]/10 blur-[90px] rounded-full" />
                       {/* Top Product Cards Grid */}
-                      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-7 relative z-10">
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-7 relative z-10">
                         {productCategoryItems.map((prod) => (
                           <div
                             key={prod.label}

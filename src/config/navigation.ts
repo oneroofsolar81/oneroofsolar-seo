@@ -197,22 +197,6 @@ export const mainNavConfig: NavItem[] = [
         ],
       },
       {
-        label: "EV Chargers",
-        href: "/services/ev-chargers/installation",
-        description: "Smart EV charging solutions for home & business.",
-        iconName: "Zap",
-        children: [
-          {
-            label: "EV Charger Installation",
-            href: "/services/ev-chargers/installation",
-          },
-          {
-            label: "EV Charger Repair",
-            href: "/services/ev-chargers/repair",
-          },
-        ],
-      },
-      {
         label: "Battery Storage",
         href: "/products/solar-battery-brands/",
         description: "Store excess solar energy for day & night.",
